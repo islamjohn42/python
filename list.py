@@ -37,3 +37,12 @@ bozorlik = ["yog'", 'un', 'piyoz', 'banan', "go'sht"]
 mahsulot = bozorlik.pop(3) # Ro'yxatdan banan ni sug'urib olamiz
 print("Men " + mahsulot + " sotib oldim")
 print("Olinmagan mahsulotlar: ", bozorlik)
+
+#####################
+nameOfFriends = ["John", "Ali", "Malik"]
+print(f"{nameOfFriends[0]}, how are you today?, {nameOfFriends[1]}, when do you finish your work?, {nameOfFriends[2]}, when were you born?")
+
+nameOfFriends.insert(0, "Bond")
+nameOfFriends.insert(int(len(nameOfFriends) / 2), "Robin")
+nameOfFriends.append("James")
+print(nameOfFriends)
