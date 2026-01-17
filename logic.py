@@ -47,3 +47,13 @@ if orders:
             print(f"There's not {order} in menu")
 else: 
     print("There is no order yet")
+
+
+
+userAge = int(input("Enter your age: \n>>>"))
+if userAge <= 4 or userAge >= 60:
+    print("Enterance is free")
+elif userAge <= 18:
+    print("Enterance for you is 10.000")
+elif userAge > 18:
+    print("Enterance for you is 20.000")
